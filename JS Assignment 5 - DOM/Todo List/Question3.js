@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var todoForm = document.getElementById('todoForm');
 
     function addItem(e){
-        e.preventDefault(); // Prevent form submission
+        e.preventDefault(); 
 
         const item_value = input.value;
-        if (!item_value.trim()) return; // If input is empty, do nothing
+        if (!item_value.trim()) return;
 
         const item = document.createElement('li');
         item.classList.add('item');
