@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  /* Header CSS */
+  header {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    float: left;
+    display: flex;
+    align-items: center;
+  }
+  .social-links {
+    float: right;
+    align-items: center;
+  }
+  .social-links a {
+    color: #fff;
+    margin-left: 10px;
+  }
+  /* Menubar CSS */
+  .menubar {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 0;
+  }
+  .menubar nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  /* Sidebar CSS */
+  .sidebar {
+    background-color: #ddd;
+    padding: 20px;
+    margin-top: 10px;
+    width: 20%; /* added */
+    float: left; /* added */
+  }
+  /* Content CSS */
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .box {
+    flex-basis: 30%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+  }
+  .box h2 {
+    margin-bottom: 10px;
+  }
+  /* Footer CSS */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 14px;
+}
+
+.copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    text-decoration: underline;
+}
